@@ -168,7 +168,6 @@ if __name__ == "__main__":
     if not (args.lat and args.lng) and not (args.city and args.country): sys.exit(1)
 
     try:
-        global THEME
         THEME = load_theme(args.theme)
         coords = (args.lat, args.lng) if args.lat and args.lng else get_coordinates(args.city, args.country)
         city_name = args.city if args.city else f"{args.lat}_{args.lng}"
@@ -176,3 +175,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"✗ Error: {e}")
         sys.exit(1)
+
