@@ -1,0 +1,14 @@
+{
+    "name": "Feature-Based Shading",
+    "bg": "#0B0C10",
+    "text": "#66FCF1",
+    "gradient_color": "#0B0C10",
+    "water": "#1F2833",
+    "parks": "#0B0C10",
+    "road_motorway": "#C5C6C7",
+    "road_primary": "#C5C6C7",
+    "road_secondary": "#C5C6C7",
+    "road_tertiary": "#C5C6C7",
+    "road_residential": "#45A29E",
+    "road_default": "#45A29E"
+}
