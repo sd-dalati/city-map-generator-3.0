@@ -1,0 +1,8 @@
+osmnx
+matplotlib
+numpy
+geopy
+tqdm
+argparse
+requests
+Pillow
